@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tetrisModel",
+    "texture": "c5041cc0-72d0-4f0a-9e11-b1f4c86c0beb",
+    "atlas": "",
+    "rect": [
+      13,
+      54,
+      1081,
+      188
+    ],
+    "offset": [
+      -12.5,
+      -13.5
+    ],
+    "originalSize": [
+      1132,
+      269
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chuangguan",
+    "texture": "03bff251-b1c8-4017-b08d-0010853f5fdb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1242,
+      2208
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1242,
+      2208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,2657 @@
+2019-12-03T06:33:36.959Z - normal: Load ~/.CocosCreator/settings.json
+2019-12-03T06:33:38.065Z - normal: Initializing Asset Database
+2019-12-03T06:33:38.085Z - normal: checking language setting...
+2019-12-03T06:33:38.085Z - normal: Language: zh
+2019-12-03T06:33:38.909Z - success: preview server running at http://localhost:7456
+2019-12-03T06:33:38.912Z - success: protocol editor-framework registered
+2019-12-03T06:33:38.912Z - success: protocol app registered
+2019-12-03T06:33:38.912Z - success: protocol theme registered
+2019-12-03T06:33:38.912Z - success: protocol packages registered
+2019-12-03T06:33:38.912Z - success: protocol uuid registerred
+2019-12-03T06:33:38.913Z - success: protocol db registerred
+2019-12-03T06:33:38.913Z - success: protocol thumbnail registerred
+2019-12-03T06:33:38.913Z - success: protocol unpack registerred
+2019-12-03T06:33:38.913Z - success: protocol disable-commonjs registerred
+2019-12-03T06:33:38.999Z - normal: connected!
+2019-12-03T06:33:39.002Z - normal: Check project C:\Users\17838\Desktop\study\creator\H1_V1
+2019-12-03T06:33:39.007Z - normal: Initializing project C:\Users\17838\Desktop\study\creator\H1_V1
+2019-12-03T06:33:39.457Z - normal: Initializing Cocos2d
+2019-12-03T06:33:41.900Z - normal: Initializing engine extends
+2019-12-03T06:33:41.927Z - success: asset-db-debugger loaded
+2019-12-03T06:33:41.937Z - success: baidu-adapter loaded
+2019-12-03T06:33:41.942Z - success: color-picker loaded
+2019-12-03T06:33:42.027Z - success: fb-audience-network loaded
+2019-12-03T06:33:42.095Z - success: fb-live-stream loaded
+2019-12-03T06:33:42.120Z - success: google-play-instant loaded
+2019-12-03T06:33:42.171Z - success: huawei-runtime loaded
+2019-12-03T06:33:42.634Z - success: cpk-publish loaded
+2019-12-03T06:33:42.638Z - success: jsb-adapter loaded
+2019-12-03T06:33:42.660Z - success: oppo-runtime loaded
+2019-12-03T06:33:42.671Z - success: package-manager loaded
+2019-12-03T06:33:42.834Z - success: qqplay-adapter loaded
+2019-12-03T06:33:42.843Z - success: runtime-dev-tools loaded
+2019-12-03T06:33:42.855Z - success: sdkbox loaded
+2019-12-03T06:33:42.869Z - success: tester loaded
+2019-12-03T06:33:42.877Z - success: ui-grid loaded
+2019-12-03T06:33:42.886Z - success: ui-kit-preview-extra loaded
+2019-12-03T06:33:42.894Z - success: ui-kit-preview loaded
+2019-12-03T06:33:42.896Z - success: ui-kit loaded
+2019-12-03T06:33:42.905Z - success: ui-tree loaded
+2019-12-03T06:33:42.927Z - success: vivo-runtime loaded
+2019-12-03T06:33:42.932Z - success: weapp-adapter loaded
+2019-12-03T06:33:42.936Z - success: xiaomi-adapter loaded
+2019-12-03T06:33:42.977Z - success: assets loaded
+2019-12-03T06:33:42.979Z - success: builder loaded
+2019-12-03T06:33:43.209Z - success: cocos-services loaded
+2019-12-03T06:33:43.213Z - success: console loaded
+2019-12-03T06:33:43.243Z - success: fb-instant-games loaded
+2019-12-03T06:33:43.246Z - success: game-window loaded
+2019-12-03T06:33:43.247Z - success: google-instant-games loaded
+2019-12-03T06:33:43.251Z - success: hierarchy loaded
+2019-12-03T06:33:43.253Z - success: inspector loaded
+2019-12-03T06:33:43.254Z - success: keystore loaded
+2019-12-03T06:33:43.258Z - success: node-library loaded
+2019-12-03T06:33:43.259Z - success: package-asset loaded
+2019-12-03T06:33:43.260Z - success: preferences loaded
+2019-12-03T06:33:43.261Z - success: project-exporter loaded
+2019-12-03T06:33:43.263Z - success: project-importer loaded
+2019-12-03T06:33:43.265Z - success: project-settings loaded
+2019-12-03T06:33:43.273Z - success: scene loaded
+2019-12-03T06:33:43.274Z - success: simulator-debugger loaded
+2019-12-03T06:33:43.275Z - success: sprite-editor loaded
+2019-12-03T06:33:43.278Z - success: store loaded
+2019-12-03T06:33:43.282Z - success: timeline loaded
+2019-12-03T06:33:43.286Z - success: xiaomi-runtime loaded
+2019-12-03T06:33:45.341Z - info: Cocos Services load base data!
+2019-12-03T06:33:57.153Z - normal: Loading packages
+2019-12-03T06:33:57.160Z - normal: Watching packages
+2019-12-03T06:33:57.640Z - normal: Run Application
+2019-12-03T06:34:03.679Z - warn: Please change the definition of property 'countDownAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    countDownAudio: cc.Texture2D,
+    // or:
+    countDownAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    countDownAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.679Z - warn: Please change the definition of property 'clickAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.680Z - warn: Please change the definition of property 'clickAudio' in class 'MatchUser'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.681Z - warn: Please change the definition of property 'clickAudio' in class 'chooseModel'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.690Z - warn: Please change the definition of property 'clickAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.690Z - warn: Please change the definition of property 'removeAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.690Z - warn: Please change the definition of property 'loseAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.701Z - warn: Please change the definition of property 'clickAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.701Z - warn: Please change the definition of property 'winAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.702Z - warn: Please change the definition of property 'loseAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.702Z - warn: Please change the definition of property 'removeAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.702Z - warn: Please change the definition of property 'downAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.712Z - warn: Please change the definition of property 'clickAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.713Z - warn: Please change the definition of property 'loseAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.713Z - warn: Please change the definition of property 'removeAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.725Z - warn: Please change the definition of property 'clickAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.726Z - warn: Please change the definition of property 'loseAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.726Z - warn: Please change the definition of property 'removeAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.747Z - warn: Please change the definition of property 'winAudio' in class 'GetServer'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.754Z - warn: Please change the definition of property 'clickAudio' in class 'TurnScene'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.762Z - warn: Please change the definition of property 'backAudio' in class 'UserInfo'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    backAudio: cc.Texture2D,
+    // or:
+    backAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    backAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.765Z - warn: Please change the definition of property 'clickAudio' in class 'WechatLogin'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.788Z - warn: Please change the definition of property 'clickAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.788Z - warn: Please change the definition of property 'loseAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.788Z - warn: Please change the definition of property 'removeAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.788Z - warn: Please change the definition of property 'downAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:03.791Z - warn: Please change the definition of property 'clickAudio' in class 'wechatForJava'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:34:45.119Z - warn: The Asset used by component "cc.Sprite" in prefab "rank.prefab" is missing. Detailed information:
+Node path: "rank/userImage"
+Asset url: "db://assets/Prefab/rank.prefab"
+Missing uuid: "5ca23439-580d-4dc0-a690-32aaa1a2f387"
+
+2019-12-03T06:34:45.120Z - warn: The Asset used by component "cc.Sprite" in prefab "rank.prefab" is missing. Detailed information:
+Node path: "rank"
+Asset url: "db://assets/Prefab/rank.prefab"
+Missing uuid: "4a188a73-de90-4ad8-a60f-1c90b62e1f2b"
+
+2019-12-03T06:35:52.334Z - normal: Start building with options : {
+  "actualPlatform": "web-desktop",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "android-23",
+  "appABIs": [
+    "x86",
+    "arm64-v8a"
+  ],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1\\build",
+  "debug": false,
+  "dest": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1\\build\\web-desktop",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "Layout",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "MotionStreak",
+    "Collider",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "Chipmunk",
+    "Camera",
+    "Intersection",
+    "Geom Utils",
+    "3D",
+    "3D Primitive"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-desktop",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "617114c8-9349-4b3e-bce4-7d47834c863b",
+    "5171b180-64b4-45e2-af9d-9f7f3a6db24c",
+    "da5c9fd4-9378-4fc9-8784-07b3ba0b956f",
+    "b2fbb817-a4cb-4935-8c37-90d31b127e3b",
+    "4a70df40-9634-468f-8171-dab8c6fd9f8f",
+    "ab709c16-44c2-42bc-87b3-fbbe86f7969c",
+    "630946a3-b459-49df-812a-53917838682e",
+    "037c206e-1c9b-4c28-9a99-a62a9e3298c3",
+    "ce658034-6f00-4f52-b010-508304937b2d",
+    "5065e447-5b1b-4eb8-b092-13cd249bc01f",
+    "59040e72-a642-4fd5-99d1-02ef5e387975",
+    "e9a19210-59d4-41b3-b050-d71d2f7415ea",
+    "19757594-3c16-42e4-8ee4-287297f3be92"
+  ],
+  "sourceMaps": false,
+  "startScene": "617114c8-9349-4b3e-bce4-7d47834c863b",
+  "template": "link",
+  "title": "H1_V1",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://file.ykplay.com",
+    "appid": "wx659abd0e802de13a",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "a40849a4-6e60-49",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1",
+  "projectName": "H1_V1",
+  "debugBuildWorker": false
+}
+2019-12-03T06:35:52.336Z - normal: Building C:\Users\17838\Desktop\study\creator\H1_V1
+2019-12-03T06:35:52.336Z - normal: Destination C:\Users\17838\Desktop\study\creator\H1_V1\build\web-desktop
+2019-12-03T06:35:52.484Z - normal: Delete C:\Users\17838\Desktop\study\creator\H1_V1\build\web-desktop\subpackages/**/*,C:\Users\17838\Desktop\study\creator\H1_V1\build\web-desktop\**\*
+2019-12-03T06:35:59.151Z - normal: Start building assets
+2019-12-03T06:35:59.151Z - normal: Start spawn build-worker
+2019-12-03T06:35:59.855Z - normal: Finish spawn build-worker
+2019-12-03T06:35:59.855Z - normal: Start init build-worker
+2019-12-03T06:36:02.989Z - warn: Please change the definition of property 'countDownAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    countDownAudio: cc.Texture2D,
+    // or:
+    countDownAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    countDownAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:02.989Z - warn: Please change the definition of property 'clickAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:02.991Z - warn: Please change the definition of property 'clickAudio' in class 'MatchUser'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:02.992Z - warn: Please change the definition of property 'clickAudio' in class 'chooseModel'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.000Z - warn: Please change the definition of property 'clickAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.000Z - warn: Please change the definition of property 'removeAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.000Z - warn: Please change the definition of property 'loseAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.017Z - warn: Please change the definition of property 'clickAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.017Z - warn: Please change the definition of property 'winAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.017Z - warn: Please change the definition of property 'loseAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.018Z - warn: Please change the definition of property 'removeAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.018Z - warn: Please change the definition of property 'downAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.032Z - warn: Please change the definition of property 'clickAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.033Z - warn: Please change the definition of property 'loseAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.034Z - warn: Please change the definition of property 'removeAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.054Z - warn: Please change the definition of property 'clickAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.055Z - warn: Please change the definition of property 'loseAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.055Z - warn: Please change the definition of property 'removeAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.076Z - warn: Please change the definition of property 'winAudio' in class 'GetServer'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.082Z - warn: Please change the definition of property 'clickAudio' in class 'TurnScene'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.092Z - warn: Please change the definition of property 'backAudio' in class 'UserInfo'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    backAudio: cc.Texture2D,
+    // or:
+    backAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    backAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.094Z - warn: Please change the definition of property 'clickAudio' in class 'WechatLogin'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.109Z - warn: Please change the definition of property 'clickAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.109Z - warn: Please change the definition of property 'loseAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.110Z - warn: Please change the definition of property 'removeAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.110Z - warn: Please change the definition of property 'downAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.111Z - warn: Please change the definition of property 'clickAudio' in class 'wechatForJava'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:03.112Z - normal: Finish init build-worker
+2019-12-03T06:36:03.112Z - normal: Start build-assets in worker
+2019-12-03T06:36:05.076Z - warn: The referenced asset used in "db://assets/Prefab/rank.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "rank/userImage"
+Used in Component: "cc.Sprite"
+uuid: "5ca23439-580d-4dc0-a690-32aaa1a2f387"
+2019-12-03T06:36:05.077Z - warn: The referenced asset used in "db://assets/Prefab/rank.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "rank"
+Used in Component: "cc.Sprite"
+uuid: "4a188a73-de90-4ad8-a60f-1c90b62e1f2b"
+2019-12-03T06:36:05.938Z - normal: Finish build-assets in worker
+2019-12-03T06:36:05.945Z - normal: Finish building assets
+2019-12-03T06:36:06.063Z - normal: Start building plugin scripts
+2019-12-03T06:36:06.886Z - normal: Finish building plugin scripts
+2019-12-03T06:36:06.908Z - normal: Generating main.js from C:\CocosCreator_2.1.2\resources\static\build-templates\shares\main.js
+2019-12-03T06:36:06.940Z - normal: Generating html from C:\CocosCreator_2.1.2\resources\static\build-templates\web-desktop\template\index.html
+2019-12-03T06:36:08.151Z - normal: Built to "C:\Users\17838\Desktop\study\creator\H1_V1\build\web-desktop" successfully
+2019-12-03T06:36:42.107Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "android-23",
+  "appABIs": [
+    "x86",
+    "arm64-v8a"
+  ],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1\\build",
+  "debug": false,
+  "dest": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1\\build\\web-mobile",
+  "embedWebDebugger": true,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "Layout",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "MotionStreak",
+    "Collider",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "Chipmunk",
+    "Camera",
+    "Intersection",
+    "Geom Utils",
+    "3D",
+    "3D Primitive"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "617114c8-9349-4b3e-bce4-7d47834c863b",
+    "5171b180-64b4-45e2-af9d-9f7f3a6db24c",
+    "da5c9fd4-9378-4fc9-8784-07b3ba0b956f",
+    "b2fbb817-a4cb-4935-8c37-90d31b127e3b",
+    "4a70df40-9634-468f-8171-dab8c6fd9f8f",
+    "ab709c16-44c2-42bc-87b3-fbbe86f7969c",
+    "630946a3-b459-49df-812a-53917838682e",
+    "037c206e-1c9b-4c28-9a99-a62a9e3298c3",
+    "ce658034-6f00-4f52-b010-508304937b2d",
+    "5065e447-5b1b-4eb8-b092-13cd249bc01f",
+    "59040e72-a642-4fd5-99d1-02ef5e387975",
+    "e9a19210-59d4-41b3-b050-d71d2f7415ea",
+    "19757594-3c16-42e4-8ee4-287297f3be92"
+  ],
+  "sourceMaps": false,
+  "startScene": "617114c8-9349-4b3e-bce4-7d47834c863b",
+  "template": "link",
+  "title": "H1_V1",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://file.ykplay.com",
+    "appid": "wx659abd0e802de13a",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "a40849a4-6e60-49",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1",
+  "projectName": "H1_V1",
+  "debugBuildWorker": false
+}
+2019-12-03T06:36:42.109Z - normal: Building C:\Users\17838\Desktop\study\creator\H1_V1
+2019-12-03T06:36:42.109Z - normal: Destination C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile
+2019-12-03T06:36:42.110Z - normal: Delete C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile\subpackages/**/*,C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile\**\*
+2019-12-03T06:36:48.266Z - normal: Start building assets
+2019-12-03T06:36:48.267Z - normal: Start spawn build-worker
+2019-12-03T06:36:48.867Z - normal: Finish spawn build-worker
+2019-12-03T06:36:48.867Z - normal: Start init build-worker
+2019-12-03T06:36:51.866Z - warn: Please change the definition of property 'countDownAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    countDownAudio: cc.Texture2D,
+    // or:
+    countDownAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    countDownAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.866Z - warn: Please change the definition of property 'clickAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.868Z - warn: Please change the definition of property 'clickAudio' in class 'MatchUser'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.869Z - warn: Please change the definition of property 'clickAudio' in class 'chooseModel'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.881Z - warn: Please change the definition of property 'clickAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.881Z - warn: Please change the definition of property 'removeAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.882Z - warn: Please change the definition of property 'loseAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.896Z - warn: Please change the definition of property 'clickAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.896Z - warn: Please change the definition of property 'winAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.897Z - warn: Please change the definition of property 'loseAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.898Z - warn: Please change the definition of property 'removeAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.899Z - warn: Please change the definition of property 'downAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.910Z - warn: Please change the definition of property 'clickAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.910Z - warn: Please change the definition of property 'loseAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.910Z - warn: Please change the definition of property 'removeAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.924Z - warn: Please change the definition of property 'clickAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.924Z - warn: Please change the definition of property 'loseAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.924Z - warn: Please change the definition of property 'removeAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.946Z - warn: Please change the definition of property 'winAudio' in class 'GetServer'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.952Z - warn: Please change the definition of property 'clickAudio' in class 'TurnScene'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.961Z - warn: Please change the definition of property 'backAudio' in class 'UserInfo'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    backAudio: cc.Texture2D,
+    // or:
+    backAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    backAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.963Z - warn: Please change the definition of property 'clickAudio' in class 'WechatLogin'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.975Z - warn: Please change the definition of property 'clickAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.976Z - warn: Please change the definition of property 'loseAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.976Z - warn: Please change the definition of property 'removeAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.976Z - warn: Please change the definition of property 'downAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.979Z - warn: Please change the definition of property 'clickAudio' in class 'wechatForJava'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:36:51.979Z - normal: Finish init build-worker
+2019-12-03T06:36:51.979Z - normal: Start build-assets in worker
+2019-12-03T06:36:53.152Z - warn: The referenced asset used in "db://assets/Prefab/rank.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "rank/userImage"
+Used in Component: "cc.Sprite"
+uuid: "5ca23439-580d-4dc0-a690-32aaa1a2f387"
+2019-12-03T06:36:53.153Z - warn: The referenced asset used in "db://assets/Prefab/rank.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "rank"
+Used in Component: "cc.Sprite"
+uuid: "4a188a73-de90-4ad8-a60f-1c90b62e1f2b"
+2019-12-03T06:36:53.829Z - normal: Finish build-assets in worker
+2019-12-03T06:36:53.837Z - normal: Finish building assets
+2019-12-03T06:36:53.943Z - normal: Start building plugin scripts
+2019-12-03T06:36:54.701Z - normal: Finish building plugin scripts
+2019-12-03T06:36:54.706Z - normal: Generating main.js from C:\CocosCreator_2.1.2\resources\static\build-templates\shares\main.js
+2019-12-03T06:36:54.725Z - normal: Generating html from C:\CocosCreator_2.1.2\resources\static\build-templates\web-mobile\template\index.html
+2019-12-03T06:36:55.657Z - normal: Built to "C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile" successfully
+2019-12-03T06:40:31.212Z - failed: Can not found the asset db://assets/Textures/cPart/vs.png/vs
+2019-12-03T06:40:37.025Z - failed: Can not found the asset db://assets/Textures/cPart/vs.png/vs
+2019-12-03T06:46:02.608Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "android-23",
+  "appABIs": [
+    "x86",
+    "arm64-v8a"
+  ],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1\\build",
+  "debug": false,
+  "dest": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1\\build\\web-mobile",
+  "embedWebDebugger": true,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "Layout",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "MotionStreak",
+    "Collider",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "Chipmunk",
+    "Camera",
+    "Intersection",
+    "Geom Utils",
+    "3D",
+    "3D Primitive"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "617114c8-9349-4b3e-bce4-7d47834c863b",
+    "5171b180-64b4-45e2-af9d-9f7f3a6db24c",
+    "da5c9fd4-9378-4fc9-8784-07b3ba0b956f",
+    "b2fbb817-a4cb-4935-8c37-90d31b127e3b",
+    "4a70df40-9634-468f-8171-dab8c6fd9f8f",
+    "ab709c16-44c2-42bc-87b3-fbbe86f7969c",
+    "630946a3-b459-49df-812a-53917838682e",
+    "037c206e-1c9b-4c28-9a99-a62a9e3298c3",
+    "ce658034-6f00-4f52-b010-508304937b2d",
+    "5065e447-5b1b-4eb8-b092-13cd249bc01f",
+    "59040e72-a642-4fd5-99d1-02ef5e387975",
+    "e9a19210-59d4-41b3-b050-d71d2f7415ea",
+    "19757594-3c16-42e4-8ee4-287297f3be92"
+  ],
+  "sourceMaps": false,
+  "startScene": "617114c8-9349-4b3e-bce4-7d47834c863b",
+  "template": "link",
+  "title": "H1_V1",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://file.ykplay.com",
+    "appid": "wx659abd0e802de13a",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "a40849a4-6e60-49",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1",
+  "projectName": "H1_V1",
+  "debugBuildWorker": false
+}
+2019-12-03T06:46:02.610Z - normal: Building C:\Users\17838\Desktop\study\creator\H1_V1
+2019-12-03T06:46:02.610Z - normal: Destination C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile
+2019-12-03T06:46:02.611Z - normal: Delete C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile\subpackages/**/*,C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile\**\*
+2019-12-03T06:46:09.221Z - normal: Start building assets
+2019-12-03T06:46:09.221Z - normal: Start spawn build-worker
+2019-12-03T06:46:09.904Z - normal: Finish spawn build-worker
+2019-12-03T06:46:09.904Z - normal: Start init build-worker
+2019-12-03T06:46:13.248Z - warn: Please change the definition of property 'countDownAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    countDownAudio: cc.Texture2D,
+    // or:
+    countDownAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    countDownAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.248Z - warn: Please change the definition of property 'clickAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.258Z - warn: Please change the definition of property 'clickAudio' in class 'MatchUser'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.272Z - warn: Please change the definition of property 'clickAudio' in class 'chooseModel'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.320Z - warn: Please change the definition of property 'clickAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.320Z - warn: Please change the definition of property 'removeAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.321Z - warn: Please change the definition of property 'loseAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.357Z - warn: Please change the definition of property 'clickAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.357Z - warn: Please change the definition of property 'winAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.357Z - warn: Please change the definition of property 'loseAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.357Z - warn: Please change the definition of property 'removeAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.357Z - warn: Please change the definition of property 'downAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.412Z - warn: Please change the definition of property 'clickAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.412Z - warn: Please change the definition of property 'loseAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.412Z - warn: Please change the definition of property 'removeAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.464Z - warn: Please change the definition of property 'clickAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.465Z - warn: Please change the definition of property 'loseAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.465Z - warn: Please change the definition of property 'removeAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.599Z - warn: Please change the definition of property 'winAudio' in class 'GetServer'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.659Z - warn: Please change the definition of property 'clickAudio' in class 'TurnScene'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.711Z - warn: Please change the definition of property 'backAudio' in class 'UserInfo'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    backAudio: cc.Texture2D,
+    // or:
+    backAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    backAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.733Z - warn: Please change the definition of property 'clickAudio' in class 'WechatLogin'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.865Z - warn: Please change the definition of property 'clickAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.865Z - warn: Please change the definition of property 'loseAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.865Z - warn: Please change the definition of property 'removeAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.865Z - warn: Please change the definition of property 'downAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.884Z - warn: Please change the definition of property 'clickAudio' in class 'wechatForJava'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:46:13.885Z - normal: Finish init build-worker
+2019-12-03T06:46:13.886Z - normal: Start build-assets in worker
+2019-12-03T06:46:20.516Z - warn: The referenced asset used in "db://assets/Prefab/rank.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "rank/userImage"
+Used in Component: "cc.Sprite"
+uuid: "5ca23439-580d-4dc0-a690-32aaa1a2f387"
+2019-12-03T06:46:20.517Z - warn: The referenced asset used in "db://assets/Prefab/rank.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "rank"
+Used in Component: "cc.Sprite"
+uuid: "4a188a73-de90-4ad8-a60f-1c90b62e1f2b"
+2019-12-03T06:46:21.881Z - normal: Finish build-assets in worker
+2019-12-03T06:46:21.892Z - normal: Finish building assets
+2019-12-03T06:46:22.128Z - normal: Start building plugin scripts
+2019-12-03T06:46:24.172Z - normal: Finish building plugin scripts
+2019-12-03T06:46:24.196Z - normal: Generating main.js from C:\CocosCreator_2.1.2\resources\static\build-templates\shares\main.js
+2019-12-03T06:46:24.232Z - normal: Generating html from C:\CocosCreator_2.1.2\resources\static\build-templates\web-mobile\template\index.html
+2019-12-03T06:46:25.696Z - normal: Built to "C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile" successfully
+2019-12-03T06:48:54.504Z - failed: Can not found the asset db://assets/Textures/cPart/vs.png/vs
+2019-12-03T06:49:01.557Z - failed: Can not found the asset db://assets/Textures/cPart/vs.png/vs
+2019-12-03T06:49:12.514Z - failed: Can not found the asset db://assets/Textures/cPart/vs.png/vs
+2019-12-03T06:49:19.127Z - failed: Can not found the asset db://assets/Textures/cPart/vs.png/vs
+2019-12-03T06:54:52.716Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "android-23",
+  "appABIs": [
+    "x86",
+    "arm64-v8a"
+  ],
+  "appBundle": false,
+  "baidugame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "testappid",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "buildPath": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1\\build",
+  "debug": false,
+  "dest": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1\\build\\web-mobile",
+  "embedWebDebugger": true,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "Layout",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "MotionStreak",
+    "Collider",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "Chipmunk",
+    "Camera",
+    "Intersection",
+    "Geom Utils",
+    "3D",
+    "3D Primitive"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "617114c8-9349-4b3e-bce4-7d47834c863b",
+    "5171b180-64b4-45e2-af9d-9f7f3a6db24c",
+    "da5c9fd4-9378-4fc9-8784-07b3ba0b956f",
+    "b2fbb817-a4cb-4935-8c37-90d31b127e3b",
+    "4a70df40-9634-468f-8171-dab8c6fd9f8f",
+    "ab709c16-44c2-42bc-87b3-fbbe86f7969c",
+    "630946a3-b459-49df-812a-53917838682e",
+    "037c206e-1c9b-4c28-9a99-a62a9e3298c3",
+    "ce658034-6f00-4f52-b010-508304937b2d",
+    "5065e447-5b1b-4eb8-b092-13cd249bc01f",
+    "59040e72-a642-4fd5-99d1-02ef5e387975",
+    "e9a19210-59d4-41b3-b050-d71d2f7415ea",
+    "19757594-3c16-42e4-8ee4-287297f3be92"
+  ],
+  "sourceMaps": false,
+  "startScene": "617114c8-9349-4b3e-bce4-7d47834c863b",
+  "template": "link",
+  "title": "H1_V1",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://file.ykplay.com",
+    "appid": "wx659abd0e802de13a",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "a40849a4-6e60-49",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\17838\\Desktop\\study\\creator\\H1_V1",
+  "projectName": "H1_V1",
+  "debugBuildWorker": false
+}
+2019-12-03T06:54:52.718Z - normal: Building C:\Users\17838\Desktop\study\creator\H1_V1
+2019-12-03T06:54:52.719Z - normal: Destination C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile
+2019-12-03T06:54:52.719Z - normal: Delete C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile\subpackages/**/*,C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile\**\*
+2019-12-03T06:54:58.600Z - normal: Start building assets
+2019-12-03T06:54:58.601Z - normal: Start spawn build-worker
+2019-12-03T06:54:59.231Z - normal: Finish spawn build-worker
+2019-12-03T06:54:59.231Z - normal: Start init build-worker
+2019-12-03T06:55:02.267Z - warn: Please change the definition of property 'countDownAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    countDownAudio: cc.Texture2D,
+    // or:
+    countDownAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    countDownAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.267Z - warn: Please change the definition of property 'clickAudio' in class 'MatchState'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.269Z - warn: Please change the definition of property 'clickAudio' in class 'MatchUser'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.270Z - warn: Please change the definition of property 'clickAudio' in class 'chooseModel'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.277Z - warn: Please change the definition of property 'clickAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.278Z - warn: Please change the definition of property 'removeAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.278Z - warn: Please change the definition of property 'loseAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.289Z - warn: Please change the definition of property 'clickAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.289Z - warn: Please change the definition of property 'winAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.290Z - warn: Please change the definition of property 'loseAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.290Z - warn: Please change the definition of property 'removeAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.290Z - warn: Please change the definition of property 'downAudio' in class 'Game4Fight'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.308Z - warn: Please change the definition of property 'clickAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.309Z - warn: Please change the definition of property 'loseAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.309Z - warn: Please change the definition of property 'removeAudio' in class 'Game1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.323Z - warn: Please change the definition of property 'clickAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.323Z - warn: Please change the definition of property 'loseAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.323Z - warn: Please change the definition of property 'removeAudio' in class 'PersonsGame1Main'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.342Z - warn: Please change the definition of property 'winAudio' in class 'GetServer'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    winAudio: cc.Texture2D,
+    // or:
+    winAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    winAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.352Z - warn: Please change the definition of property 'clickAudio' in class 'TurnScene'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.359Z - warn: Please change the definition of property 'backAudio' in class 'UserInfo'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    backAudio: cc.Texture2D,
+    // or:
+    backAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    backAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.362Z - warn: Please change the definition of property 'clickAudio' in class 'WechatLogin'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.378Z - warn: Please change the definition of property 'clickAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.378Z - warn: Please change the definition of property 'loseAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    loseAudio: cc.Texture2D,
+    // or:
+    loseAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    loseAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.378Z - warn: Please change the definition of property 'removeAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    removeAudio: cc.Texture2D,
+    // or:
+    removeAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    removeAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.379Z - warn: Please change the definition of property 'downAudio' in class 'game4'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    downAudio: cc.Texture2D,
+    // or:
+    downAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    downAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.382Z - warn: Please change the definition of property 'clickAudio' in class 'wechatForJava'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    clickAudio: cc.Texture2D,
+    // or:
+    clickAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    clickAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-12-03T06:55:02.383Z - normal: Finish init build-worker
+2019-12-03T06:55:02.383Z - normal: Start build-assets in worker
+2019-12-03T06:55:03.607Z - warn: The referenced asset used in "db://assets/Prefab/rank.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "rank/userImage"
+Used in Component: "cc.Sprite"
+uuid: "5ca23439-580d-4dc0-a690-32aaa1a2f387"
+2019-12-03T06:55:03.608Z - warn: The referenced asset used in "db://assets/Prefab/rank.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "rank"
+Used in Component: "cc.Sprite"
+uuid: "4a188a73-de90-4ad8-a60f-1c90b62e1f2b"
+2019-12-03T06:55:04.246Z - normal: Finish build-assets in worker
+2019-12-03T06:55:04.252Z - normal: Finish building assets
+2019-12-03T06:55:04.360Z - normal: Start building plugin scripts
+2019-12-03T06:55:05.200Z - normal: Finish building plugin scripts
+2019-12-03T06:55:05.205Z - normal: Generating main.js from C:\CocosCreator_2.1.2\resources\static\build-templates\shares\main.js
+2019-12-03T06:55:05.211Z - normal: Generating html from C:\CocosCreator_2.1.2\resources\static\build-templates\web-mobile\template\index.html
+2019-12-03T06:55:05.991Z - normal: Built to "C:\Users\17838\Desktop\study\creator\H1_V1\build\web-mobile" successfully

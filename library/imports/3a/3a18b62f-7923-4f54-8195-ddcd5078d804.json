@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "world_Rank",
+    "texture": "46e4636b-3ed5-45c6-8df1-a8ea5adee163",
+    "atlas": "",
+    "rect": [
+      5,
+      0,
+      543,
+      505
+    ],
+    "offset": [
+      2.5,
+      0
+    ],
+    "originalSize": [
+      548,
+      505
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

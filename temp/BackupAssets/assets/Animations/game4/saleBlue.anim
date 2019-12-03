@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "saleBlue",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.11666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "7d782b32-d217-462f-8e6a-739d3850aaba"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "2ada1031-9a82-4415-9047-f131ebbd5b73"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

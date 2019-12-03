@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "over_light2",
+    "texture": "112cf913-b6aa-415f-a374-113de8f7a183",
+    "atlas": "",
+    "rect": [
+      0,
+      30,
+      1056,
+      526
+    ],
+    "offset": [
+      0,
+      -15
+    ],
+    "originalSize": [
+      1056,
+      556
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

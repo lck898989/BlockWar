@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tetrisbg",
+    "texture": "79bc7b7d-abf4-4b2b-9056-88d16c4144d7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1080,
+      1920
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1080,
+      1920
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

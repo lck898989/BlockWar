@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FACE2",
+    "texture": "f4d31b6c-979e-4e4b-84e0-829827ccb04f",
+    "atlas": "",
+    "rect": [
+      26,
+      26,
+      208,
+      208
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      260,
+      260
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

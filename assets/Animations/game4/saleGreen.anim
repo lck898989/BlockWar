@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "saleGreen",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "79f1c4ac-1613-4330-b928-b0bdb3758ba3"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "c1a08614-5e04-4409-a583-3887e2385d74"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

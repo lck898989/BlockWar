@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "puyouModel",
+    "texture": "4c9a9c96-e1b3-4e37-8c00-b32cddcda9f9",
+    "atlas": "",
+    "rect": [
+      17,
+      43,
+      1081,
+      187
+    ],
+    "offset": [
+      -22,
+      -17
+    ],
+    "originalSize": [
+      1159,
+      239
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

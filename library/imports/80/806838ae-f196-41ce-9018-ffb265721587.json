@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cxks-f",
+    "texture": "60950672-6d32-495e-9a8b-a53877e1dcbf",
+    "atlas": "6e54e29d-56e8-4ddd-bf33-559f069c2d07",
+    "rect": [
+      1,
+      126,
+      650,
+      127
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      650,
+      127
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

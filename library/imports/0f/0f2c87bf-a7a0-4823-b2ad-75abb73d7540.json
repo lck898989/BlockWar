@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "stoneLignt",
+    "texture": "de7373a9-5025-4a63-9905-ec97029c6132",
+    "atlas": "",
+    "rect": [
+      21,
+      0,
+      805,
+      204
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      847,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ChangeRed",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "1094dd52-6aed-4032-a136-79b4e3bf7b03"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "1094dd52-6aed-4032-a136-79b4e3bf7b03"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

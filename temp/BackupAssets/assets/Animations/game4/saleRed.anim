@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "saleRed",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "c0e3c148-db84-4915-850b-a9b1f6692959"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "d6777a35-2db4-4524-9708-483e343aae93"
+            }
+          }
+        ]
+      },
+      "Image": {}
+    },
+    "paths": {
+      "light": {
+        "props": {}
+      }
+    }
+  },
+  "events": []
+}

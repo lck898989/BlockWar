@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fenxiang",
+    "texture": "7f51cf34-3e7e-43c6-9604-9642f9f6657d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      102,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      102,
+      56
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

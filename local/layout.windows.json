@@ -1,0 +1,133 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "worker": {},
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 824,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 226.375,
+                "type": "panel",
+                "width": 247.22500610351562
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 478.8125,
+                "type": "panel",
+                "width": 247.22500610351562
+              }
+            ],
+            "height": 707.2000122070312,
+            "type": "dock-v",
+            "width": 247.22500610351562
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 396.2375183105469,
+                "type": "panel",
+                "width": 967.1625366210938
+              },
+              {
+                "active": 1,
+                "children": [
+                  "console",
+                  "timeline"
+                ],
+                "height": 308.95001220703125,
+                "type": "panel",
+                "width": 967.1625366210938
+              }
+            ],
+            "height": 707.2000122070312,
+            "type": "dock-v",
+            "width": 967.1625366210938
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 707.2000122070312,
+            "type": "panel",
+            "width": 304
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "console",
+        "timeline",
+        "inspector",
+        "scene"
+      ]
+    },
+    "window-1575356084806": {}
+  },
+  "panels": {
+    "project-settings": {
+      "x": 96,
+      "y": 54,
+      "width": 600,
+      "height": 788
+    },
+    "sprite-editor": {
+      "x": 387,
+      "y": 59,
+      "width": 711,
+      "height": 748
+    },
+    "builder": {
+      "x": 355,
+      "y": 110,
+      "width": 605,
+      "height": 727
+    },
+    "preferences": {
+      "x": 273,
+      "y": 24,
+      "width": 1047,
+      "height": 724
+    },
+    "assets": {
+      "x": 249,
+      "y": 72,
+      "width": 465,
+      "height": 805
+    },
+    "console": {
+      "x": 360,
+      "y": 409,
+      "width": 420,
+      "height": 339
+    },
+    "timeline": {
+      "x": 473,
+      "y": 131,
+      "width": 520,
+      "height": 339
+    }
+  }
+}

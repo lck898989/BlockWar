@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hyph",
+    "texture": "386c33d4-5482-47cd-83d5-c433e8490bc3",
+    "atlas": "",
+    "rect": [
+      4,
+      0,
+      855,
+      1198
+    ],
+    "offset": [
+      2,
+      0
+    ],
+    "originalSize": [
+      859,
+      1198
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

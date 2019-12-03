@@ -1,0 +1,226 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "game_yellow_stone_unlock",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.36666666666666664,
+  "sample": 60,
+  "speed": 0.5,
+  "wrapMode": 0,
+  "curveData": {
+    "paths": {
+      "shell": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": false
+            }
+          ]
+        },
+        "comps": {
+          "Image": {}
+        }
+      },
+      "shell_1": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": true
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": false
+            }
+          ]
+        }
+      },
+      "shell_2": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": true
+            },
+            {
+              "frame": 0.1,
+              "value": false
+            }
+          ]
+        }
+      },
+      "shell_3": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.1,
+              "value": true
+            },
+            {
+              "frame": 0.15,
+              "value": false
+            }
+          ]
+        }
+      },
+      "shell_4": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.15,
+              "value": true
+            },
+            {
+              "frame": 0.18333333333333332,
+              "value": false
+            }
+          ]
+        }
+      },
+      "shell_5": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.18333333333333332,
+              "value": true
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": false
+            }
+          ]
+        }
+      },
+      "shell_6": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": true
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": false
+            }
+          ]
+        }
+      },
+      "shell_7": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": true
+            },
+            {
+              "frame": 0.3,
+              "value": false
+            }
+          ]
+        }
+      },
+      "shell_8": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.3,
+              "value": true
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": false
+            }
+          ]
+        }
+      },
+      "stone": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 0.1,
+              "value": 1.05
+            },
+            {
+              "frame": 0.15,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 0.1,
+              "value": 1.05
+            },
+            {
+              "frame": 0.15,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "shell_9": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": true
+            },
+            {
+              "frame": 0.36666666666666664,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

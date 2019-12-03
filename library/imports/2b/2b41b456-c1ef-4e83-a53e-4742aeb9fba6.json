@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "qian",
+    "texture": "60950672-6d32-495e-9a8b-a53877e1dcbf",
+    "atlas": "6e54e29d-56e8-4ddd-bf33-559f069c2d07",
+    "rect": [
+      289,
+      1093,
+      69,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      55
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

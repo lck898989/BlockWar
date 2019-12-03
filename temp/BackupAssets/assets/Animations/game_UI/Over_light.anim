@@ -1,0 +1,51 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Over_light",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 5,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "Over_light2": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -3
+            },
+            {
+              "frame": 1.25,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": 3
+            }
+          ]
+        }
+      },
+      "Over_light1": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -4
+            },
+            {
+              "frame": 0.75,
+              "value": 4
+            },
+            {
+              "frame": 1.5,
+              "value": -4
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

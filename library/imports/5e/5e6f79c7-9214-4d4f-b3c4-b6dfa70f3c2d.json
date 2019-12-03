@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "figureDown",
+    "texture": "5c831321-8ae4-4368-a636-60621bdcd52c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      213,
+      205
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      213,
+      205
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

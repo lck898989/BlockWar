@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d3a2b63e-87dc-47e0-bc5e-27541830528d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "俄罗斯bg": {
+      "ver": "1.0.3",
+      "uuid": "99c4357b-fcc6-4eb5-9f15-7b01a45b0039",
+      "rawTextureUuid": "d3a2b63e-87dc-47e0-bc5e-27541830528d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1242,
+      "height": 2208,
+      "rawWidth": 1242,
+      "rawHeight": 2208,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
